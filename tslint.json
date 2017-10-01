@@ -1,0 +1,13 @@
+{
+    "rulesDirectory": [
+        "customRule"
+    ],
+    "rules": {
+        "singleExport": true,
+        "topLevelComment": [
+            true,
+            50,
+            true
+        ]
+    }
+}

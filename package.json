@@ -1,0 +1,17 @@
+{
+  "name": "singleexport",
+  "description": "Linting rule for a single export",
+  "authors": "Kevin McGowan",
+  "version": "1.0.0",
+  "main": "./index.js",
+  "scripts": {
+    "lint": "tslint test/topLevelComments/*.ts"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.31",
+    "install": "^0.10.1",
+    "npm": "^5.4.2",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3"
+  }
+}

@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "main": "./index.js",
   "scripts": {
-    "lint": "tslint test/topLevelComments/*.ts"
+    "lint": "tslint test/override/*.ts"
   },
   "dependencies": {
     "@types/node": "^8.0.31",

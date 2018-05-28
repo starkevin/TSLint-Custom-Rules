@@ -1,6 +1,6 @@
 {
     "rulesDirectory": [
-        "bin/customRule"
+        "bin/customRules"
     ],
     "rules": {
         "declareOverride": true

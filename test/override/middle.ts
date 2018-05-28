@@ -4,6 +4,9 @@ namespace override {
         
         public hello5 = NaN;
         
+        /**
+         * Should fail.
+         */
         public hello() {
             
         }

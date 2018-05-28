@@ -1,9 +1,18 @@
 namespace override {
 
     export class Top extends Middle {
+        
+        /**
+         * Should fail.
+         */
+        public hello5 = 123;
 
-        public hello3() {
+        @override public hello2() {
 
+        }
+        
+        public hello6() {
+            
         }
 
     }

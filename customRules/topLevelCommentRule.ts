@@ -41,7 +41,7 @@ export class Rule extends Lint.Rules.AbstractRule {
      * Implements the walker
      * @param sourceFile 
      */
-    public apply(sourceFile: ts.SourceFile): Lint.RuleFailure[] {
+    @override public apply(sourceFile: ts.SourceFile): Lint.RuleFailure[] {
         return this.applyWithWalker(new TopLevelCommentWalker(sourceFile, this.getOptions()));
     }
 }
@@ -89,7 +89,7 @@ class TopLevelCommentWalker extends Lint.RuleWalker {
      * Visit each identifier given export assignment does not pickup those that are also identifiers
      * @param node 
      */
-    public visitIdentifier(node: ts.Identifier) {
+    @override public visitIdentifier(node: ts.Identifier) {
         /// Find the node that contains the export declaration
         let targetNode: ts.Node = node;
         while (targetNode.kind === ts.SyntaxKind.Identifier ||

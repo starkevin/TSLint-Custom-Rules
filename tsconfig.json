@@ -10,10 +10,13 @@
         "noUnusedParameters": true,
         "moduleResolution": "node",
         "sourceMap": true,
-        "outDir": "bin"
+        "outDir": "bin",
+        "noImplicitAny": true
     },
     "include": [
-        "./customRule/*.ts",
-        "test/**/*.ts"
+        "b.ts",
+        "customRules/**/*.ts",
+        "test/**/*.ts",
+        "debug.ts"
     ]
 }

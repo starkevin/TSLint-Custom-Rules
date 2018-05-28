@@ -12,7 +12,7 @@ declare global {
 /**
  * Decorator that doesn't do anything.
  */
-(global as any).override = function override(...args: any[]) {
+(global as any).override = function(...args: any[]) {
     /// Purposely does nothing.
     args;
 }
